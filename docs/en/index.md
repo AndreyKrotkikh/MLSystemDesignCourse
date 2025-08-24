@@ -27,6 +27,14 @@ lang: en
 <p>No authors listed yet.</p>
 {% endif %}
 
+## Project Design Document
+
+### I. Problem Definition
+- Origin: [TBD]
+- Relevance & Reasons: [TBD]
+- Previous Work: [TBD]
+- Other Issues & Risks: [TBD]
+
 ## Documents
 
 - [Design Doc Template]({{ '/en/template' | relative_url }})
