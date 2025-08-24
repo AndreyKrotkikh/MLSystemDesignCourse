@@ -1,16 +1,14 @@
 ---
 layout: default
-title: Template
+title: ML System Design Course
+lang: en
 ---
-
-<!-- This page renders the contents of Course_MLDDesignDoc/template.md -->
 
 {% include lang_switcher.html %}
 
-## Language
+# ML System Design Course
 
-- [Русский]({{ '/ru/' | relative_url }})
-- [English]({{ '/en/' | relative_url }})
+Welcome! Choose your language using the toggle above.
 
 ## Authors
 

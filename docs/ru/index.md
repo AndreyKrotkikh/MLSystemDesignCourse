@@ -1,18 +1,16 @@
 ---
 layout: default
-title: Template
+title: Курс по ML System Design
+lang: ru
 ---
-
-<!-- This page renders the contents of Course_MLDDesignDoc/template.md -->
 
 {% include lang_switcher.html %}
 
-## Language
+# Курс по ML System Design
 
-- [Русский]({{ '/ru/' | relative_url }})
-- [English]({{ '/en/' | relative_url }})
+Добро пожаловать! Переключите язык с помощью тумблера выше.
 
-## Authors
+## Авторы
 
 {% assign authors = site.data.authors %}
 {% if authors and authors.size > 0 %}
@@ -28,7 +26,7 @@ title: Template
   {% endfor %}
   </ul>
 {% else %}
-<p>No authors listed yet.</p>
+<p>Список авторов пока пуст.</p>
 {% endif %}
 
 
