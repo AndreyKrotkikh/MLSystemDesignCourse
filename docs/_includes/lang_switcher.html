@@ -1,5 +1,5 @@
 <nav class="lang-switcher" style="margin: 1rem 0;">
-  {% assign current = page.url | default: '/' %}
+  {% assign current = page.url | default: '/' | replace: '.html', '' %}
   {% if current contains '/en/' %}
     {% assign ru_url = current | replace_first: '/en/', '/ru/' %}
     {% assign en_url = current %}
