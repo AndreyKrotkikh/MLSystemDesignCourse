@@ -8,8 +8,6 @@ lang: en
 
 # ML System Design Course
 
-Welcome! Choose your language using the toggle above.
-
 ## Authors
 
 {% assign authors = site.data.authors %}

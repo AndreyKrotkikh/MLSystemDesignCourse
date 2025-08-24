@@ -8,8 +8,6 @@ lang: ru
 
 # Курс по ML System Design
 
-Добро пожаловать! Переключите язык с помощью тумблера выше.
-
 ## Авторы
 
 {% assign authors = site.data.authors %}

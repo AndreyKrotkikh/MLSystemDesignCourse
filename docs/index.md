@@ -7,11 +7,6 @@ title: Template
 
 {% include lang_switcher.html %}
 
-## Language
-
-- [Русский]({{ '/ru/' | relative_url }})
-- [English]({{ '/en/' | relative_url }})
-
 ## Authors
 
 {% assign authors = site.data.authors %}
