@@ -27,6 +27,11 @@ lang: en
 <p>No authors listed yet.</p>
 {% endif %}
 
+## Documents
+
+- [Design Doc Template]({{ '/en/template' | relative_url }})
+- [Design Doc Checklist]({{ '/en/checklist' | relative_url }})
+
 ## Project Design Document
 
 ### I. Problem Definition
@@ -34,9 +39,5 @@ lang: en
 - Relevance & Reasons: [TBD]
 - Previous Work: [TBD]
 - Other Issues & Risks: [TBD]
-
-## Documents
-
-- [Design Doc Template]({{ '/en/template' | relative_url }})
 
 

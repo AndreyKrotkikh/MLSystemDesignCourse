@@ -6,6 +6,8 @@ lang: ru
 
 {% include lang_switcher.html %}
 
+{% include back_link.html %}
+
 # Шаблон документа по проектированию ML-системы
 
 ## Исполнительное резюме

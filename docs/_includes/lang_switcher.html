@@ -1,6 +1,17 @@
 <nav class="lang-switcher" style="margin: 1rem 0;">
-  <a href="{{ '/ru/' | relative_url }}">RU</a>
+  {% assign current = page.url | default: '/' %}
+  {% if current contains '/en/' %}
+    {% assign ru_url = current | replace_first: '/en/', '/ru/' %}
+    {% assign en_url = current %}
+  {% elsif current contains '/ru/' %}
+    {% assign en_url = current | replace_first: '/ru/', '/en/' %}
+    {% assign ru_url = current %}
+  {% else %}
+    {% assign en_url = '/en/' %}
+    {% assign ru_url = '/ru/' %}
+  {% endif %}
+  <a href="{{ ru_url | relative_url }}">RU</a>
   |
-  <a href="{{ '/en/' | relative_url }}">EN</a>
+  <a href="{{ en_url | relative_url }}">EN</a>
 </nav>
 
