@@ -8,137 +8,137 @@ lang: ru
 
 {% include back_link.html %}
 
-# ML System Design Document Review Checklist
+# Чеклист ревью дизайн‑документа ML‑системы
 
-## Problem Definition
-- [ ] Clear problem statement with measurable objectives
-- [ ] Well-defined scope and constraints
-- [ ] Identified stakeholders and their requirements
-- [ ] Justified business value and impact
-- [ ] Analyzed existing solutions and their limitations
-- [ ] Assessed risks and failure modes
-- [ ] Estimated costs of mistakes
-- [ ] Defined success criteria
+## Определение проблемы
+- [ ] Чёткая постановка задачи с измеримыми целями
+- [ ] Определённые границы и ограничения
+- [ ] Определены стейкхолдеры и их требования
+- [ ] Обоснована бизнес‑ценность и влияние
+- [ ] Проанализированы существующие решения и их ограничения
+- [ ] Оценены риски и режимы отказа
+- [ ] Оценены затраты/стоимость ошибок
+- [ ] Определены критерии успеха
 
-## Metrics and Losses
-- [ ] Defined business metrics
-- [ ] Selected appropriate model metrics
-- [ ] Justified loss functions
-- [ ] Aligned metrics with business goals
-- [ ] Considered trade-offs
-- [ ] Defined evaluation strategy
-- [ ] Set up measurement framework
-- [ ] Planned A/B testing approach
+## Метрики и функции потерь
+- [ ] Определены бизнес‑метрики
+- [ ] Выбраны метрики качества модели
+- [ ] Обоснованы функции потерь
+- [ ] Метрики согласованы с целями бизнеса
+- [ ] Учтены компромиссы
+- [ ] Определена стратегия оценки
+- [ ] Настроен фреймворк измерений
+- [ ] Спланирован подход к A/B‑тестированию
 
-## Data Considerations
-- [ ] Identified all data sources (internal/external)
-- [ ] Assessed data quality and freshness
-- [ ] Documented data pipeline architecture
-- [ ] Addressed data privacy and security
-- [ ] Considered data versioning strategy
-- [ ] Evaluated data storage requirements
-- [ ] Planned data labeling process
-- [ ] Documented metadata usage
-- [ ] Designed ETL pipeline
-- [ ] Set up data quality checks
+## Данные
+- [ ] Идентифицированы все источники данных (внутренние/внешние)
+- [ ] Оценены качество и свежесть данных
+- [ ] Задокументирована архитектура конвейера данных
+- [ ] Учтены приватность и безопасность данных
+- [ ] Продумана стратегия версионирования данных
+- [ ] Оценены требования к хранению данных
+- [ ] Спланирован процесс разметки данных
+- [ ] Задокументировано использование метаданных
+- [ ] Спроектирован ETL‑конвейер
+- [ ] Настроены проверки качества данных
 
-## Validation Strategy
-- [ ] Defined validation requirements
-- [ ] Designed validation schema
-- [ ] Prevented data leakage
-- [ ] Planned update frequency
-- [ ] Set up cross-validation strategy
-- [ ] Considered temporal aspects
-- [ ] Documented validation process
-- [ ] Planned for data drift
+## Стратегия валидации
+- [ ] Определены требования к валидации
+- [ ] Спроектирована схема валидации
+- [ ] Предотвращена утечка данных
+- [ ] Запланирована частота обновлений
+- [ ] Определена стратегия кросс‑валидации
+- [ ] Учтены временные аспекты
+- [ ] Задокументирован процесс валидации
+- [ ] Запланирована обработка дрейфа данных
 
-## Baseline Solutions
-- [ ] Defined constant baselines
-- [ ] Selected model baselines
-- [ ] Identified feature baselines
-- [ ] Set minimum performance requirements
-- [ ] Planned comparison methodology
-- [ ] Documented baseline results
-- [ ] Set up improvement metrics
+## Базовые решения
+- [ ] Определены константные базовые линии
+- [ ] Выбраны базовые модели
+- [ ] Определены базовые признаки
+- [ ] Установлены минимальные требования к качеству
+- [ ] Спланирована методология сравнения
+- [ ] Задокументированы результаты базовых решений
+- [ ] Определены метрики улучшения
 
-## Error Analysis
-- [ ] Planned learning curve analysis
-- [ ] Set up residual analysis
-- [ ] Identified edge cases
-- [ ] Planned monitoring of failure modes
-- [ ] Designed error tracking
-- [ ] Set up performance analysis
-- [ ] Planned improvement process
+## Анализ ошибок
+- [ ] Запланирован анализ кривых обучения
+- [ ] Настроен анализ остатков
+- [ ] Выявлены крайние случаи
+- [ ] Запланирован мониторинг режимов отказа
+- [ ] Спроектировано отслеживание ошибок
+- [ ] Настроен анализ производительности
+- [ ] Спланирован процесс улучшений
 
-## Training Pipeline
-- [ ] Designed training architecture
-- [ ] Selected appropriate tools
-- [ ] Planned data preprocessing
-- [ ] Set up experiment tracking
-- [ ] Defined model versioning
-- [ ] Planned resource allocation
-- [ ] Documented training process
-- [ ] Set up monitoring
+## Тренировочный конвейер
+- [ ] Спроектирована архитектура обучения
+- [ ] Выбраны инструменты
+- [ ] Спланирована предобработка данных
+- [ ] Настроен трекинг экспериментов
+- [ ] Определено версионирование моделей
+- [ ] Спланировано распределение ресурсов
+- [ ] Задокументирован процесс обучения
+- [ ] Настроен мониторинг
 
-## Feature Engineering
-- [ ] Defined feature selection criteria
-- [ ] Listed initial features
-- [ ] Planned feature tests
-- [ ] Set up feature monitoring
-- [ ] Documented feature dependencies
-- [ ] Planned feature updates
-- [ ] Considered computational constraints
+## Инжиниринг признаков
+- [ ] Определены критерии отбора признаков
+- [ ] Составлен начальный список признаков
+- [ ] Спланированы тесты признаков
+- [ ] Настроен мониторинг признаков
+- [ ] Задокументированы зависимости признаков
+- [ ] Спланированы обновления признаков
+- [ ] Учтены вычислительные ограничения
 
-## Integration
-- [ ] Designed API interfaces
-- [ ] Planned release cycle
-- [ ] Set up fallback strategies
-- [ ] Defined operational procedures
-- [ ] Planned monitoring and alerts
-- [ ] Documented deployment process
-- [ ] Set up incident response
-- [ ] Defined SLAs
+## Интеграция
+- [ ] Спроектированы интерфейсы API
+- [ ] Спланирован цикл релизов
+- [ ] Настроены стратегии отката
+- [ ] Определены операционные процедуры
+- [ ] Спланирован мониторинг и алерты
+- [ ] Задокументирован процесс деплоя
+- [ ] Настроен процесс реагирования на инциденты
+- [ ] Определены SLA
 
-## Documentation
-- [ ] Clear writing and organization
-- [ ] Technical details sufficient
-- [ ] Diagrams and visualizations
-- [ ] References and citations
-- [ ] Glossary of terms
-- [ ] Version history
-- [ ] Maintenance procedures
-- [ ] Update guidelines
+## Документация
+- [ ] Ясное изложение и структура
+- [ ] Достаточный уровень технических деталей
+- [ ] Диаграммы и визуализации
+- [ ] Ссылки и цитаты
+- [ ] Глоссарий терминов
+- [ ] История версий
+- [ ] Процедуры сопровождения
+- [ ] Рекомендации по обновлениям
 
-## System Architecture
-- [ ] Detailed infrastructure requirements
-- [ ] Scalability considerations
-- [ ] Latency requirements
-- [ ] Security measures
-- [ ] Integration points
-- [ ] Deployment strategy
+## Архитектура системы
+- [ ] Детальные инфраструктурные требования
+- [ ] Учтена масштабируемость
+- [ ] Требования к задержкам
+- [ ] Меры безопасности
+- [ ] Точки интеграции
+- [ ] Стратегия деплоя
 
-## Evaluation Strategy
-- [ ] Clear success metrics
-- [ ] A/B testing methodology
-- [ ] Performance benchmarks
-- [ ] Monitoring plan
-- [ ] Alert thresholds
-- [ ] Fallback strategies
+## Стратегия оценки
+- [ ] Чёткие метрики успеха
+- [ ] Методология A/B‑тестирования
+- [ ] Бенчмарки производительности
+- [ ] План мониторинга
+- [ ] Пороговые значения алертов
+- [ ] Стратегии отката
 
-## Implementation Plan
-- [ ] Realistic timeline
-- [ ] Resource requirements
-- [ ] Dependencies identified
-- [ ] Risk assessment
-- [ ] Mitigation strategies
-- [ ] Success criteria
+## План внедрения
+- [ ] Реалистичный таймлайн
+- [ ] Требования к ресурсам
+- [ ] Идентифицированы зависимости
+- [ ] Оценка рисков
+- [ ] Стратегии снижения рисков
+- [ ] Критерии успеха
 
-## Maintenance & Operations
-- [ ] Monitoring setup
-- [ ] Update procedures
-- [ ] Backup strategies
-- [ ] Incident response plan
-- [ ] SLAs defined
-- [ ] Resource scaling plan
+## Эксплуатация и сопровождение
+- [ ] Настройка мониторинга
+- [ ] Процедуры обновлений
+- [ ] Стратегии резервного копирования
+- [ ] План реагирования на инциденты
+- [ ] Определены SLA
+- [ ] План масштабирования ресурсов
 
 
