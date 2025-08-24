@@ -2,3 +2,6 @@ title: ML System Design Course
 theme: minima
 description: GitHub Pages site for ML System Design Course
 
+# Hide top navigation between pages
+header_pages: []
+
