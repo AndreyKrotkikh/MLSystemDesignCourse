@@ -27,4 +27,8 @@ lang: en
 <p>No authors listed yet.</p>
 {% endif %}
 
+## Documents
+
+- [Design Doc Template]({{ '/en/template' | relative_url }})
+
 
