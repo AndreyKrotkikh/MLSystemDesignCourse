@@ -34,6 +34,12 @@ lang: en
 
 ## Project Design Document
 
+### Executive Summary
+- **Project Name**: [Name]
+- **Problem Statement**: [Brief description of the problem]
+- **Business Impact**: [Expected impact and KPIs]
+- **Timeline**: [High-level timeline]
+
 ### I. Problem Definition
 - Origin: [TBD]
 - Relevance & Reasons: [TBD]
