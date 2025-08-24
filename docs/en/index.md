@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: plain
 title: ML System Design Course
 lang: en
 ---
