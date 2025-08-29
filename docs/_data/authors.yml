@@ -4,6 +4,8 @@
     github: https://github.com/AndreyKrotkikh
 - name: Daniil Sobolev
   role: Maintainer
+  links:
+    github: https://github.com/sobolevdaniil
 - name: Ivan Antipov
   role: Maintainer
 
