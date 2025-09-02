@@ -82,7 +82,7 @@ lang: ru
 ## II. Метрики и функции потерь
 
 ### i. Метрики
-- Бизнес: ARPU (Average Revenue per User), GMV (Gross Mechandise Value), маржа, LTV (Lifetime Value), churn, конверсия офферов, доля рынка, выручка от опций, NPS (Net Promoter Score)/CSAT (Customer Satisfaction Score).
+- Бизнес: ARPU (Average Revenue per User), GMV (Gross Merchandise Value), маржа, LTV (Lifetime Value), churn, конверсия офферов, доля рынка, выручка от опций, NPS (Net Promoter Score)/CSAT (Customer Satisfaction Score).
 - Модель: AUC/PR‑AUC/LogLoss (take‑rate), uplift@K/uplift‑AUC/CATE  (для промо/опций), mean regret (бандиты), MAPE/SMAPE (прогноз спроса регрессией/деревьями).
 - Связь с бизнес целями: оптимизируем ARPU/GMV при ограничениях на маржу; снижаем churn за счёт апгрейдов/персональных тарифов; контролируем каннибализацию между различными каналами продаж.
 - Trade-offs: ARPU vs churn; GMV vs маржа; краткосрочный GMV vs LTV; персонализация vs справедливость/регуляторика.
