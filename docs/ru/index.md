@@ -84,7 +84,7 @@ lang: ru
 
 ### i. Метрики
 - Бизнес: ARPU (Average Revenue per User), GMV (Gross Merchandise Value), маржа, LTV (Lifetime Value), churn, конверсия офферов, доля рынка, выручка от опций, NPS (Net Promoter Score)/CSAT (Customer Satisfaction Score).
-- Модель: ROC‑AUC/LogLoss (take‑rate); Brier Score, ECE для калибровки, uplift@K/CATE  (для промо/опций), mean regret (бандиты).
+- Модель: ROC‑AUC/PR-AUC/LogLoss (take‑rate); Brier Score, ECE для калибровки, uplift@K/CATE  (для промо/опций), mean regret (бандиты).
 - Связь с бизнес целями: оптимизируем ARPU/GMV при ограничениях на маржу и конверсию; снижаем churn за счёт апгрейдов/персональных тарифов; контролируем каннибализацию между различными каналами продаж.
 - Trade-offs: ARPU vs churn; GMV vs маржа; краткосрочный GMV vs LTV; персонализация vs справедливость/регуляторика.
 
